@@ -1,12 +1,12 @@
 # sinopia docker image
 
-==Install image ==
+##Install image##
 docker pull euprogramador/sinopia:latest
 
-== Create container ==
+## Create container ##
 docker run --name sinopia -d -p 4873:4873 euprogramador/sinopia:lastest
 
-== External configuration ==
+## External configuration ##
 
 the image creates a directory at the root called /sinopia containing config.yaml and storage, to set up a production environment suggest turning this into mount volume points and fix version. Example:
 
